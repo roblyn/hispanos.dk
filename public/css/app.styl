@@ -1,7 +1,5 @@
 test()
     display inline-block
-    background #d91e00
-    box-shadow 2px 2px 5px #585858
     padding 2em
     text-align center
 
@@ -10,7 +8,7 @@ content()
 	display flex
 	justify-content space-between
 	flex-direction row
-	margin 0 5em 0 5em
+
 	a
 		text-decoration none
 		color white
@@ -20,9 +18,9 @@ lineal()
 	box-shadow: 2px 2px 5px #999;
 	padding .5em 
 	text-align right
-columna()
 
-	width 30%
+columna()
+	
 	display inline-block
 	text-align center
 
@@ -65,41 +63,42 @@ body
 	color white
 .menu
 	display inline-block
-		
-.clasificaciones
-	content()
-	a:hover
-		opacity 0.4
-.info
-	content()
-	a:hover
-		opacity 0.4
 
-.seccion 
-	test()
+.square
+	display inline-block
+	background #d91e00
+	padding 2em
+	margin-top 2em
+	box-shadow 2px 2px 5px #585858
+	
+	
+	a:hover
+		opacity 0.4
 .content
-	padding-top 9em
+	content()
+	padding-top 7.3em
 	img
 		width 12em
 		height 12em
+	.seccion 
+		test()
+
 	
 .footer
+	content()
 	background #2175bc
 	text-align center
 	
-.primera
-	columna()
-	border-right .2em white solid
-.final
-	columna()
+	.primera
+		columna()
+		border-right .2em white solid
 
 
-@media (max-width: 500px)
-   
-   .top
+@media (max-width: 800px)
+	.top
    		text-align center
-   .titulo
-   		font-size 14px;
+		.titulo
+   			font-size 14px
     	
 	
 	
